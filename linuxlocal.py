@@ -2,19 +2,17 @@ import os
 def linuxlocal():
     pass
 while True:
-    print("""
-    \n
-    Press 1 To Know Who You Are??
-        Press 2 To Check Your System IP
-        Press 3 To Check Internet Connectivity
-        Press 4 To Run Date
-        Press 5 To See Calender
-        Press 6 To Start Any Service
-        Press 7 To Copy Any File From Your BaseOS To Another Linux System
-        Press 8 Want To Reboot Your System?
-        Press 0 To type the command yourself
-        Press 10 to go back to prevoius menu
-        """)
+    print("\n\nList of linux commands")
+    print("\tPress 1 To Know Who You Are??")
+    print("\tPress 2 To Check Your System IP")
+    print("\tPress 3 To Check Internet Connectivity")
+    print("\tPress 4 To Run Date")
+    print("\tPress 5 To See Calender")
+    print("\tPress 6 To Start Any Service")
+    print("\tPress 7 To Copy Any File From Your BaseOS To Another Linux System")
+    print("\tPress 8 Want To Reboot Your System?")
+    print("\tPress 0 To type the command yourself")
+    print("\tPress 10 to go back to prevoius menu")
 
 
     ch = input("Enter your Choice :")

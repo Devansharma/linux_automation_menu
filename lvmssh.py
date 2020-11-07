@@ -7,13 +7,14 @@ print("\t\t\tWelocome to LVM via ssh")
 ip = input("Type the IP you want to run LVM on: ")
 
 while True:
-    print("""Press 1 to create a Physical Volume
-             Press 2 to create a Volume Group 
-             Press 3 to create a Logical Volume 
-             Press 4 to Extend the Storage Capacity of Data Node by 5GB 
-             Press 0 to type the command yourself
-             Press 10 to go back to previous menu
-    """)
+    print("\n\nList of LVM commands available")
+    print("\tPress 1 to create a Physical Volume")
+    print("\tPress 2 to create a Volume Group") 
+    print("\tPress 3 to create a Logical Volume") 
+    print("\tPress 4 to Extend the Storage Capacity of Data Node by 5GB") 
+    print("\tPress 0 to type the command yourself")
+    print("\tPress 10 to go back to previous menu")
+
     n=int(input("Enter your choice: "))
     if (n==1):
         os.system("ssh {0} pvcreate /dev/sdc".format(ip))
